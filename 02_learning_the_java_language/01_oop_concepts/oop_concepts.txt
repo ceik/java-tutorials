@@ -1,0 +1,17 @@
+Software objects have a state and related behavior. The state is stored in fields (variables) and the behavior is exposed through methods (functions). Methods operate on an objects internal state and are the primary mechanism for object-to-object interaction.
+
+Data Encapsulation: Hiding the internal state and requiring all interaction with an object to be performed through it's methods.
+
+OOP Advantages:
+    - Modularity: Source code for one object can be maintained independently from that of other objects. Once created an object can be easily passed around in the system.
+    - Information-hiding: Because interaction with an object only happens through it's methods, details of it's internal implementation remain hidden from the outside world.
+    - Code re-use: Objects written by others can easily be used in your own program.
+    - Pluggability and debugging ease: Objects can be removed and fixed without necessarily having to change other parts of the program.
+
+Class: Blueprint from which individual objects are created.
+
+Inheritance: Each class can have one superclass in Java. That class is then called a subclass of that superclass. Inheritance in Java happends via the extend keyword.
+
+Interface: Group of related methods with empty bodies. They are basically a contract enforced by the compiler that your class has all the methods promised by the interface. To implement an interface, the implements keyword is used at class creation and all the methods of the interface need to be implemented in the class.
+
+Package: Namespace that organizes a set of related classes and interfaces.
